@@ -1,0 +1,23 @@
+package selfProgramming;
+
+import java.util.Scanner;
+public class Slide11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		Scanner input = new Scanner(System.in);
+	    System.out.print("Enter an Integer, or -1 to stop: ");
+	    int choice= input.nextInt();
+	    while (choice!=-1)
+	    {  
+	    	System.out.println("INSIDE LOOPING");
+	    	System.out.print("Enter an Integer, or -1 to stop: ");
+	    	choice= input.nextInt();
+	    	}
+		 System.out.println("Sentinel value detected. Good Bye.");
+		 }
+
+	}
+
+
