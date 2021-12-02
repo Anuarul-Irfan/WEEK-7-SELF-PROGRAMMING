@@ -35,7 +35,7 @@ public class Createpassword {
 	    		}
 	    	} 
 	    
-	    		if (digit == true && lowercase == true && uppercase == true && length == true)
+	    		if ((digit == true) && (lowercase == true) && (uppercase == true) && (length == true))
 	    			System.out.println("Valid password");
 	    		else
 	    			System.out.println("Invalid password");
